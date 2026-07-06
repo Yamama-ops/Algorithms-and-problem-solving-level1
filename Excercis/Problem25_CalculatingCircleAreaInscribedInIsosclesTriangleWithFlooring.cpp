@@ -10,7 +10,7 @@ int main()
 
 	cout << "Please enter b" << endl;
 	cin >> b;
-	Area = (PI * b * b / 4)*((2 * a - b) / (2 * a + b));
+	Area = Floor((PI * b * b / 4)*((2 * a - b) / (2 * a + b)));
 	cout << "The Area is " << Area << endl;
 	return 0;
 
